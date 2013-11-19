@@ -1,4 +1,14 @@
 PrasRor::Application.routes.draw do
+  resources :stats
+
+
+  resources :microposts
+
+
+  resources :users
+  resources :users1
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
