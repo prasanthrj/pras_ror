@@ -8,10 +8,6 @@ render_views
       get 'home'
       response.should be_success
     end
-	it "Should have right title" do
-	get 'home'
-	response.should have_selector("title", :content=> "Ruby on Rails sample App | Home ")
-	end
   end
 
   describe "GET 'contact'" do
@@ -20,5 +16,5 @@ render_views
       response.should be_success
     end
   end
-
 end
+

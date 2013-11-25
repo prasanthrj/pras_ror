@@ -4,8 +4,6 @@ PrasRor::Application.routes.draw do
   get "pages/contact"
 
   resources :stats
-
-
   resources :microposts
 
 
